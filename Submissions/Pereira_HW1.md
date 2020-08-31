@@ -3,3 +3,6 @@ Mekha Pereira
 HW 1
 
 I took last year's average over the period of interest and rounded.
+
+## Grade
+3/3 - Great job!
