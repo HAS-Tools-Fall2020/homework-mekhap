@@ -2,8 +2,12 @@
 *Mekha Pereira*
 *09/13/2020*
 
--------
+---------
+# Grade
 
+3/3 - Great job! I like your approach
+
+---
 ## Assignment Questions
 
 *Question 1.* Describe the variables flow, year, month, and day. What type of objects are they, what are they composed of, and how long are they?
