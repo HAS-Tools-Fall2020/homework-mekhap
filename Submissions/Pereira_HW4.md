@@ -1,6 +1,9 @@
 # Homework 3 Markdown
 *Mekha Pereira*
 *09/20/2020*
+___
+### Grade
+3/3 - great work. Next time include your graphs in the markdown file. You can use the atom plugin for this. 
 
 ---------
 ## Justification for Forecast
