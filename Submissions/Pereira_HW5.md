@@ -2,6 +2,9 @@
 *Mekha Pereira*
 
 *09/28/2020*
+____
+## Grade
+3/3 - Great job!
 
 ---------
 ## Justification for Forecast
