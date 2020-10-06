@@ -3,6 +3,10 @@
 
 *10/03/2020*
 
+___
+### Grade
+3/3 - Great work. Nice analysis and great job with the  graphs!
+
 ---------
 ## Assignment Questions
 
