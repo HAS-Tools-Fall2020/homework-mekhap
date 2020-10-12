@@ -21,20 +21,21 @@
 ---
 #### FORECAST VALUES FROM CODE
 
-* 1 week forecast based on AR model:
-* 2 week forecast based on AR model:
+* 1 week forecast based on AR model: 85.85
+* 2 week forecast based on AR model: 106.59
 
 
-* 1 week forecast based on last week's average flow:
-* 2 week forecast based on last two weeks' average flow:
+* 1 week forecast based on last week's average flow: 61.86
+* 2 week forecast based on last two weeks' average flow: 59.57
 
 ---
 #### CODE REVIEW
 
 1. Is the script easy to read and understand?
-
+The script is very easy to read! You could change a couple of things though, like your function doesn't need to be named model3_... especially if you change the name of your model. Also if you are going to label by steps, make sure you account for when you remove numbers so that the count stays consistent (I got confused when there wasn't a step 5). Also if you are going to do something like line 118-121, I would say don't make it its own cell since it doesn't have any code to run.   3
 
 2. Does the code follow PEP8 style consistently?
-
+Yes, but make sure to move your functions to the top of your script by your initial imports!   3
 
 3. Is the code written succinctly and efficiently?
+The code was written well, I can tell that you went back and removed anything unnecessary.   3
