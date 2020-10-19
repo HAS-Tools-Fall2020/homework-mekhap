@@ -2,7 +2,7 @@
 import os
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+import matplotlib as plt
 
 # we can name our rows and columns an refer to them by name
 # we don't have to have just 1 datatype
