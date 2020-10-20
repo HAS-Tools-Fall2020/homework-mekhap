@@ -11,6 +11,7 @@ import datetime
 
 # %%
 # Step 2: Set up any functions that will be used in this script
+# LC - great documentation on your function. 
 def armodel_2wk_predict(flow1, flow2, flow3):
     """Function that makes 1 and 2 week flow predictions based on an AR model.
     The AR model should be built on three time lags and be named 'model'. The
@@ -26,7 +27,7 @@ def armodel_2wk_predict(flow1, flow2, flow3):
            ar_model_predictions[0] = 1 week prediciton of avgerage flow
            ar_model_predictions[1] = 2 week prediciton of avgerage flow
     """
-
+    # LC - wow nice logic in here!
     ar_model_predictions = np.zeros(2)
     for i in range(0, 2):
         ar_model_predictions[i] = model.intercept_ \
@@ -37,8 +38,8 @@ def armodel_2wk_predict(flow1, flow2, flow3):
               ar_model_predictions[i].round(2), ' cfs'
               )
         flow1 = ar_model_predictions[i]
-        flow2 = flow1
-        flow3 = flow2
+        flow2 = flow1 
+        flow3 = flow2  # LC - I think you need to define flow3=flow2 before flow2=flow1 or else they both get set to flow1
     return ar_model_predictions
 
 # %%
@@ -77,6 +78,7 @@ flow_weekly['flow_tm3'] = flow_weekly['flow'].shift(3)
 # %%
 # Step 6 - Pick what portion of the time series to use as training data
 # For this AR model, training = 2017-2018, testing = 2019-2020
+# LC - you could define these numbers as variables based on dates. 
 train = flow_weekly[1461:1566][['flow', 'flow_tm1', 'flow_tm2', 'flow_tm3']]
 test = flow_weekly[1566:][['flow', 'flow_tm1', 'flow_tm2', 'flow_tm3']]
 
@@ -177,6 +179,8 @@ print("My prediction for 2 week forecast: ", myprediction_2wk, 'cfs')
 # Step 11: Make predictions for 16 week forecast
 # Predictions will be based on weekly flow in 2019, which was a low flow year
 # For this year, I will assume max weekly flow of 200 cfs
+
+# LC - Nice work doing your 16 week forecast in a loop!
 flow_2019 = flow_weekly["2019-08-31":"2019-12-14"]
 
 lt_forecast = np.zeros(16)

@@ -2,6 +2,16 @@
 ###### Code author: Mekha (modified code from Laura)
 ###### Code reviewer: Laura
 
+#### Grade 
+ - 6/6  Great  job!
+ - Readability: 3
+ - Style: 3 
+ - Code: 3
+
+ - Really nice work. I like the function  you defined and  your use of loops is great. 
+ - I made a few suggestions but overall  I like your setup. 
+
+
 ---
 #### WRITTEN ASSIGNMENT
 
