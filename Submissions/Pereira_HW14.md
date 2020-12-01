@@ -3,6 +3,9 @@ Mekha Pereira
 
 11/30/2020
 
+## Grade
+3/3 - nice work.
+
 ---------
 #### Question 1. What is the paper or project you picked? Include a title, a link to the paper and a 1-2 sentence summary of what its about.
 
