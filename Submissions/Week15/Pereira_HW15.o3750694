@@ -1,0 +1,26 @@
+coefficient of determination: 0.88
+intercept: 5.07
+slope: [ 0.91  0.14 -0.09]
+AR model  1  week forecast is  155.86  cfs
+AR model  2  week forecast is  162.76  cfs
+[155.85548439 162.76399533]
+lt_week 1  =  38.0
+lt_week 2  =  74.0
+lt_week 3  =  56.0
+lt_week 4  =  57.0
+lt_week 5  =  96.0
+lt_week 6  =  90.0
+lt_week 7  =  89.0
+lt_week 8  =  83.0
+lt_week 9  =  84.0
+lt_week 10  =  107.0
+lt_week 11  =  127.0
+lt_week 12  =  133.0
+lt_week 13  =  192.0
+lt_week 14  = 200
+lt_week 15  = 200
+lt_week 16  = 200
+[ 38.  74.  56.  57.  96.  90.  89.  83.  84. 107. 127. 133. 192. 200.
+ 200. 200.]
+Your group tmeixner has been charged 0:00:09 (0:00:09 X 1 cpus).
+You previously had 35998:43:59.  You now have 35998:43:50 of standard_time remaining
