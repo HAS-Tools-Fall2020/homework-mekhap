@@ -3,6 +3,10 @@ Mekha Pereira
 
 12/06/2020
 
+___
+#### Grade
+3/3 - Nice work! I'm sorry it was such a struggle to get it running.  I'm not sure without looking what the issue is with your pbs file but paths can be really tricky. 
+
 ---------
 #### What resources did you request on Ocelote? How long did you wait in the queue for your job to run and how long did it take to run?
 
